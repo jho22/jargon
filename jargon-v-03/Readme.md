@@ -1,16 +1,5 @@
 # <img src="./assets/images/wordpress-water-mark.png" width="100" align="center"> WordPress Working With Images
 
-<<<<<<< HEAD
-## Plan Your Layout
-
-As with all ui/ux plan out the layout and design of your site. This will help you with any art dirction problems you may have with image content as you build your WP site.
-
-## WordPress Image Tools
-
-WordPress has a built in media library for use with images video and audio that you intend to use in your site. For a full explination on the [WP Media Library](https://wordpress.org/support/article/media-library-screen/) visit this link.
-
-https://res.cloudinary.com/demo/image/upload/s--N5szE634--/c_imagga_scale,h_200,w_150/family_bench.jpg
-=======
 ## Make A Plan
 
 As with all ui/ux development you must plan out the layout of your WP application. One of your key decisions will be how to deal with images. Having a solid plan that is inclusive of all viewports as much as possible will help you with possible art direction problems during the WP build process.
@@ -66,4 +55,3 @@ Cloudinary will help you write [srcset and sizes attributes ](https://cloudinary
 There is also [great documentation](https://cloudinary.com/documentation/responsive_images) on a host of relevant topics for developers on hosting and service image and video assets.
 
 To get Cloudinary functionality working with WordPress you have to install the Cloudinary Plugin and configure it so you can access your account.
->>>>>>> c63f564e2aaff7b57bc8800e6ae22b2de6a84a1b
