@@ -43,8 +43,23 @@ MAIN SITE NAVIGATION
   list-style-type: none;
 }
 
+.mobile-menu-icon
+{
+  width: 2rem;
+}
+
 /* 
 ---------------------------------------------------------------------------------------
 MAIN PAGE HEADER
 -------------------------------------------------------------------------------------
 */
+.main-page-header{
+  padding: 10rem 0;
+  text-align: center;
+  background: tomato;
+  color: #fff;
+}
+
+.jargon-logo{
+  width: 2rem;
+}
