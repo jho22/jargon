@@ -27,30 +27,29 @@ To proper way to add styles and script to you theme is to [enqueue them](https:/
 For a more indepth explination of the role of the functions.php file visit the [WordPress Theme Developers Handbook](https://codex.wordpress.org/Functions_File_Explained)
 
 ```php
-<?php
+<?php 
 
-   if(! function_exists('setup_jargon')){
+   if(! function_exists('jargon_setup')){
        // wordpress functionality
-       add_theme_support('title_tag');
+       function jargon_setup(){
+           add_theme_support('title_tag');
+       }
 
    }
 
-   add_theme_support("after_setup", "setup_jargon");
-
-
-
-
+   add_theme_support("after_setup", "jargon_setup");
+ 
 
     function jargon_styles () {
         wp_enqueue_style('jargon_reboot', get_template_directory_uri(). '/assets/css/reboot.css');
-        wp_enqueue_style('jargon_fonts', "https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+        wp_enqueue_style('jargon_fonts', "https: //fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,700|Roboto:400,700&display=swap");
         wp_enqueue_style('jargon_styles', get_stylesheet_uri());
     }
 
     add_action('wp_enqueue_scripts', 'jargon_styles');
 
-
-
+  
+     
 
 ?>
 
