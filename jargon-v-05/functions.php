@@ -10,7 +10,7 @@
    }
 
    add_theme_support("after_setup", "jargon_setup");
- 
+   add_filter('use_block_editor_for_post', '__return_false', 10);
 
 
 
