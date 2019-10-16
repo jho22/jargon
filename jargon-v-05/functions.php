@@ -34,7 +34,7 @@
                 'singular_name' => __('Movie'),
                 'add_new' => 'Add new movie',
                 'add_new_type' => 'Add new type',
-                'edit_item' => 'Edit item'
+                'edit_item' => 'Name of edit item'
         );
         // creates the post functionality that you want for a full listing see the link attached above
         $args = array(
