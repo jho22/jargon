@@ -41,7 +41,7 @@
             'rewrite' => array('slug' => 'movies'),
             'menu_position' => 5,
             'menu_icon' => 'dashicons-admin-media',
-            'supports'=> 'title'
+            'supports'=> array('title', 'editor', 'custom-fields')
         );
 
     register_post_type('movies', $args  );
