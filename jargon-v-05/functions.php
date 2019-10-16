@@ -24,30 +24,7 @@
 
     
     add_action('wp_enqueue_scripts', 'jargon_styles');
-    
-    //function creates a custom post type of movies
-    function create_post_type_movies()
-    {
-        // creates label names for the post type in the dashboard the post panel and in the toolbar.
-        $labels = array(
-                'name' => __('Movies'),
-                'singular_name' => __('Movie'),
-        );
-        // creates the post functionality that you want for a full listing see the link attached above
-        $args = array(
-            'labels' => $labels,
-            'public' => true,
-            'has_archive' => true,
-            'rewrite' => array('slug' => 'movies'),
-            'menu_position' => 5,
-            'menu_icon' => 'dashicons-admin-media',
-            'supports'=> 'title'
-        );
 
-    register_post_type('movies', $args  );
-    }
-    // Hooking up our function to theme setup
-    add_action('init', 'create_post_type_movies');
 
 
  
