@@ -39,8 +39,8 @@
             'public' => true,
             'has_archive' => true,
             'rewrite' => array('slug' => 'movies'),
-            'menu_position' => 5,
-            'menu_icon' => 'dashicons-admin-media',
+            'menu_position' => 0,
+            'menu_icon' => 'dashicons-format-video',
             'supports'=> array('title', 'editor', 'custom-fields')
         );
 
