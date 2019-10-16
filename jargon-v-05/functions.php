@@ -32,6 +32,9 @@
         $labels = array(
                 'name' => __('Movies'),
                 'singular_name' => __('Movie'),
+                'add_new' => 'Add new movie',
+                'add_new_type' => 'Add new type',
+                'edit_item' => 'Edit item'
         );
         // creates the post functionality that you want for a full listing see the link attached above
         $args = array(
