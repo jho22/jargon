@@ -2,7 +2,7 @@
 if ( ! function_exists( 'jargon_setup' ) ) :
        
        function jargon_setup(){
-           echo "Iam the function";
+        //    echo "Iam the function";
            add_theme_support( 'title-tag' );
        } 
 endif;
