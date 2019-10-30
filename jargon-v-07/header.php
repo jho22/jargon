@@ -11,7 +11,14 @@
 
 <nav class="site-nav">
        <ul class="icon-view">
-       <li>Jargon</li> 
+       <li>Jargon</li>
+       <li>new courses</li>
+       <li>articles</li>
+       <li>javascript</li>
+       <li>css</li>
+       <li>frameworks</li>
+       <li>builds</li>
+       <li>ui/ux</li>
        <li >
         <button class="login-button">login</button>
        </li>
